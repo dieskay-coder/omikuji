@@ -2,6 +2,23 @@ body {
   background: #efefef;
 }
 
+h1,h2{
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-weight:bold;
+  font-size: 60px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 24px;
+  color:navy;
+}
+
 #btn {
   width: 600px;
   height: 200px;
@@ -16,6 +33,7 @@ body {
   cursor: pointer;
   box-shadow: 0 10px 0 #d1483e;
   user-select: none; /* 選択したときに文字を囲い込まなくなる */
+
 }
 
 #btn:hover {
@@ -25,10 +43,22 @@ body {
 #btn:active {
   box-shadow: 0 5px 0 #d1483e;
   margin-top: 35px;  /* もとのマージンより5px大きくして、５ｐｘ分下げてる */
+  transform:rotate(360deg);
 }
 
 p {
   border: 1px solid black;
   width: 100px;
   text-align: center;
+}
+#reload {
+  width:max-content;
+  font-size: 32px;
+  margin: auto;
+  user-select: none;
+}
+
+#reload:hover {
+  color:#d1483e;
+  font-weight: bold;
 }

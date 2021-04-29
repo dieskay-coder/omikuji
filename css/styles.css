@@ -51,6 +51,11 @@ p {
   width: 100px;
   text-align: center;
 }
+
+.bottom {
+  padding-top: 80px;
+}
+
 #reload {
   width:max-content;
   font-size: 32px;

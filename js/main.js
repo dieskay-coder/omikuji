@@ -49,7 +49,7 @@
         btn.textContent ='はずれ(>o<)';
         sound3.play();
       };
-    },4800);
+    },5000);
   },{once: true});
 }
 

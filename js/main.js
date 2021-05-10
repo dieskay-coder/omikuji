@@ -40,14 +40,14 @@
     window.setTimeout(() => {
       const n = Math.random();
       if (n < 0.5) {
-        btn.textContent = 'おおあたり!!';
         sound1.play();
+        btn.textContent = 'おおあたり!!';
       }else if (n < 0.8) {
-        btn.textContent = 'あたり!';
         sound2.play();
+        btn.textContent = 'あたり!';
       }else {
-        btn.textContent ='はずれ(>o<)';
         sound3.play();
+        btn.textContent ='はずれ(>o<)';
       };
     },5000);
   },{once: true});
